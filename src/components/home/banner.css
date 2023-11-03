@@ -1,0 +1,8 @@
+.carousel{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    align-content: center;
+    background-color: "#EADDCA";
+}
