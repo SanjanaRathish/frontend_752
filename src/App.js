@@ -28,3 +28,8 @@ function App() {
 }
 
 export default App;
+
+
+//A>B>C>D 
+//A->5 userdata props
+//store 5 userdata
