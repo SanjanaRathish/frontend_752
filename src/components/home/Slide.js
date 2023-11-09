@@ -2,7 +2,7 @@ import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Divider } from '@mui/material';
-import { products } from './productdata';
+//import { products } from './productdata';
 import "./slide.css";
 
 const responsive = {
@@ -23,7 +23,7 @@ const responsive = {
     }
   };
 
-const Slide = () => {
+const Slide = ({title,products}) => {
   return (
     <div className='products_sections' style={{backgroundColor:"#EADDCA"}}>
         <div style={{display:"flex"}}>
