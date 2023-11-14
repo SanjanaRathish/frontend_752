@@ -6,7 +6,6 @@ import { getProducts } from '../redux/actions/action';
 import {useDispatch,useSelector} from "react-redux";
 
 
-
 const Maincomp = () => {
 
   const {products} = useSelector(state=> state.getproductsdata);

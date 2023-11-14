@@ -9,7 +9,7 @@ export const getProducts =()=>async(dispatch)=>{
 
         const res = await data.json();
         console.log(res);
-        dispatch({type:"SUC CESS_GET_PRODUCTS",payload:res})
+        dispatch({type:"SUCCESS_GET_PRODUCTS",payload:res})
     } catch(error){
         dispatch({type:"FAIL_GET_PRODUCTS",payload:error.response})
     }
