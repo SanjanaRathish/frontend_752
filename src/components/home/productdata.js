@@ -1,7 +1,7 @@
 export const products=[
     {
         id:'product1',
-        url:'./images/bananaras.png',
+        url:'./bananaras.png',
         title:{
             shortTitle:'BananaRas',
             descrip:'A delightful banana juice crafted with sugarcane jaggery, delivering the natural sweetness and goodness of banana in every sip. Savor the refreshing beverage year-round, to quench your thirst with its irresistible flavor.'
