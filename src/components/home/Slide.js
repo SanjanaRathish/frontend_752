@@ -58,11 +58,11 @@ const Slide = ({title,products}) => {
                   <NavLink to={`/getproduct/${e.id}`}>
                     <div className='products_items'>
                         <div className='products_img'>
-                            <img src={e.url} alt="productitem" height={'150px'} width={'200px'}/>
+                            <img src={e.img} alt="productitem" height={'150px'} width={'200px'}/>
                         </div>
                         <p className='product_name'>{e.title.shortTitle}</p>
                         {/*<p className='product_desc'>{e.title.longTitle}</p>*/}
-                        <p className='product_price'>{e.price}</p>
+                        <p className='product_price'>&#8377;{e.price}</p>
                     </div>
                     </NavLink>
                 )

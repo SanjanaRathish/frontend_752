@@ -59,7 +59,7 @@ const Buynow = () => {
                         <p>Eligible for free shipping</p>
                         <Option deletedata={e.id} get={getdatabuy}/>
                     </div>
-                    <h3 className='item_price'>{e.price}</h3>
+                    <h3 className='item_price'>&#8377;{e.price}</h3>
                 </div>
                 <Divider/>
                 </>)

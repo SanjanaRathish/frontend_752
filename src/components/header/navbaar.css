@@ -132,11 +132,11 @@ header nav .avtar{
 }
 header nav .avtar2{
     cursor: pointer;
-    background-color: #1365cf;
+    background-color: #5c4111;
 }
 
-header .hamburgur{
-    display: none;
+header .hamburger{
+    display: inline;
 }
 
 header .extrasearch{
@@ -159,7 +159,7 @@ header nav .drawer{
 }
 
 
-@media (max-width:800px){
+/* @media (max-width:800px){
     header .hamburgur{
         display: block;
     }
@@ -196,7 +196,7 @@ header nav .drawer{
     header nav .left .search_icon{
         /* color: #fff;
         font-size: 18px;
-        background-color: #131921; */
+        background-color: #131921; 
         display: none;
     }
     header nav .navlogo img{
@@ -204,4 +204,4 @@ header nav .drawer{
         margin-top: 14px;
         margin-left: 67px;
     }
-}
+} */
