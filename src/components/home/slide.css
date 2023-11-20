@@ -95,6 +95,7 @@
 }
 
 .products_section .products_items{
+    text-decoration: none!important;
     margin-top: 10px;
     padding: 10px;
     display: flex;

@@ -16,21 +16,23 @@ const Footer = () => {
         <div className='footer_container'>
             <div className='footer_details1'>
                 <h3>Contact Us</h3>
-                <p>Address:</p>
-                <EmailIcon id='email'/><p></p>
-                <LocalPhoneIcon id='phone'/><p></p>
+                <p>70A/G2,3rd cross,3rd Main,
+                    SVK Layout,Basveshwara Nagar,
+                    Bengaluru</p>
+                <div style={{display:'inline'}}><EmailIcon id='email' style={{marginTop:"30px"}}/><p>7fifty2edibles@gmail.com</p></div>
+                <LocalPhoneIcon id='phone'/><p>9845822986</p>
             </div>
 
             <div className='footer_details2'>
                 <h3>Connect with Us</h3>
-                <InstagramIcon id='insta'/><p></p>
+                <span><InstagramIcon id='insta'/><p>@7fifty2edibles</p></span>
                 <TwitterIcon id='tweet'/><p></p>
                 <FacebookIcon id='fb'/><p></p>
             </div>
         </div>
         <div className='last_details'>
             <img src={require('./logo.png')} alt='logo' style={{width:"150px",height:"100px"}}/>
-            <p>Conditions of Use & Sale &nbsp; &nbsp;&nbsp;  Privacy Notice  &nbsp; &nbsp;&nbsp; Interest-Based Ads  &nbsp; &nbsp;&nbsp;  © 2021-{year}, 7fifty2edibles.com, Inc. or its affiliates</p>
+            <p style={{color:"#211c17"}}>Conditions of Use & Sale &nbsp; &nbsp;&nbsp;  Privacy Notice  &nbsp; &nbsp;&nbsp; Interest-Based Ads  &nbsp; &nbsp;&nbsp;  © 2021-{year}, 7fifty2edibles.com, Inc. or its affiliates</p>
         </div>
     </footer>
   )

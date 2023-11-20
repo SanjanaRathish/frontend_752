@@ -1,0 +1,39 @@
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:  70px; /* Added margin to the top and bottom */
+  }
+  
+  .product-card {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; /* Adjust the max height to your preference */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .product-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  /* .ratings {
+    /* You can style the ratings here, for example, using font awesome icons or other methods. */
+  

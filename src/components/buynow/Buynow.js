@@ -50,16 +50,16 @@ const Buynow = () => {
                     cartdata.map((e,k)=>{
                         return(
                         <>
-                        <div className='item_containert' key={k}>
-                    <img src={require('./banokie.png')} alt='product'/>
+                        <div className='item_containert' key={e.id}>
+                    <img src={e.url} alt='product'/>
                     <div className='item_details'>
                         <h3>{e.title.shortTitle}</h3>
-                        <h3 className='diffrentprice'>{e.price}</h3>
+                        <h3 className='diffrentprice'>{e.price.cost}</h3>
                         <p>Usually dispatched in 5 days</p>
                         <p>Eligible for free shipping</p>
                         <Option deletedata={e.id} get={getdatabuy}/>
                     </div>
-                    <h3 className='item_price'>&#8377;{e.price}</h3>
+                    <h3 className='item_price'>&#8377;{e.price.cost}</h3>
                 </div>
                 <Divider/>
                 </>)

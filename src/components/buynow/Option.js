@@ -48,10 +48,10 @@ const removedata = async(req,res)=>{
         <option value="3">3</option>
         <option value="4">4</option>
     </select>
-    <div className='ops'style={{display:"inline-block",float:"left"}}>
+    <div className='ops'style={{display:"flex",float:"left"}}>
     <p className='forremovemedia' style={{cursor:"pointer"}} onClick={()=>removedata(deletedata)}>Delete</p><span style={{display:"inline"}}>|</span>
     <p className='forremovemedia'>Move to Wishlist</p><span>|</span>
-    <p className='forremovemedia'>See more like this</p><span>|</span>
+    <p className='forremovemedia'>See more like this</p>
     <ToastContainer/>
     </div>
   </div>;

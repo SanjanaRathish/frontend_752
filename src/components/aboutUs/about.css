@@ -1,0 +1,33 @@
+.container {
+ width: 100%;
+ max-width: 1200px;
+ margin: 0 auto;
+}
+
+h1 {
+ text-align: center;
+ padding: 20px 0;
+}
+
+.content {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.left-column, .right-column {
+ padding: 20px;
+}
+
+.left-column {
+ box-sizing: border-box;
+ width: 70%; /* Adjusts the width of the left column */
+}
+
+.left-column p {
+ margin-bottom: 20px; /* Adds a 20px gap between paragraphs */
+}
+
+.right-column img {
+ width: 320px;
+ height: 400px;
+}

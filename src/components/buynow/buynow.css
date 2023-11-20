@@ -131,7 +131,7 @@
 }
 
 .buynow_container .right_buy .cost_right p{
-    color: #007185;
+    color: #855900;
     font-size: 12px;
     font-weight: 500;
     margin-top: 20px;
@@ -149,14 +149,14 @@
     border-radius: 8px;
     border: none;
     outline: none;
-    background-color:#FFD814;
+    background-color:rgb(95, 87, 43);
     font-size: 14px;
     cursor: pointer;
     box-shadow: 0 0 10px -5px rgba(0,0,0,.5);
 }
 
 .cost_right .rightbuy_btn:hover{
-    background-color:#f3cc0a;
+    background-color:#cfbb58;
 }
 
 .cost_right .emi{

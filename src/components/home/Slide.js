@@ -31,9 +31,9 @@ const Slide = ({title,products}) => {
           <h3 style={{marginLeft:"50px"}}>
             Our Products
           </h3>
-          <button style={{float:"right", marginLeft:"1200px", backgroundColor:"transparent",border:"none"}}>
+          <NavLink to={'/productspage'}><button style={{float:"right", marginLeft:"1200px", backgroundColor:"transparent",border:"none"}}>
             View All
-          </button>
+          </button></NavLink>
         </div>
         <Divider className='divi' style={{marginBottom:"10px",marginTop:"10px"}}/>
 
@@ -58,11 +58,11 @@ const Slide = ({title,products}) => {
                   <NavLink to={`/getproduct/${e.id}`}>
                     <div className='products_items'>
                         <div className='products_img'>
-                            <img src={e.img} alt="productitem" height={'150px'} width={'200px'}/>
+                            <img src={e.url} alt="productitem" height={'150px'} width={'200px'}/>
                         </div>
-                        <p className='product_name'>{e.title.shortTitle}</p>
+                        <p className='product_name' style={{textDecoration:"none", color:"black"}}>{e.title.shortTitle}</p>
                         {/*<p className='product_desc'>{e.title.longTitle}</p>*/}
-                        <p className='product_price'>&#8377;{e.price}</p>
+                        <p className='product_price' style={{textDecoration:"none", color:"black"}}>&#8377;{e.price.mrp}</p>
                     </div>
                     </NavLink>
                 )

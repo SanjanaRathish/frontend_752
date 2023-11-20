@@ -23,11 +23,12 @@ const Rightheader = ({logClose}) => {
         </div>
         <div className='nav_btn' onClick={()=>logClose()}>
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/">Shop</NavLink>
+            <NavLink to="/productspage">Shop</NavLink>
 
             <Divider style={{width:"100%",marginLeft:"-20px"}}/>
 
-            <NavLink to="/">Gallery</NavLink>
+            <NavLink to="/aboutus">About Us</NavLink>
+            <NavLink to="/blogs">Blogs</NavLink>
             {
                 account? <NavLink to="/buynow">Your Orders</NavLink>
                 : <NavLink to="/login">Your Orders</NavLink>

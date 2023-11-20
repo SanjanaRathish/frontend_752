@@ -11,6 +11,10 @@ import Buynow from './components/buynow/Buynow';
 import {Routes,Route} from "react-router-dom"
 import CircularProgress from '@mui/material/CircularProgress';
 import { useEffect, useState } from 'react';
+import About from './components/aboutUs/About';
+import Blog from './components/blogs/Blog';
+import Product from './components/prod/products_page';
+
 
 function App() {
 
@@ -35,6 +39,10 @@ function App() {
       <Route path="/register" element={<SignUp />} />
       <Route path="/getproduct/:id" element={<Cart />} />
       <Route path="/buynow" element={<Buynow />} />
+      <Route path="/aboutus" element={<About />} />
+      <Route path="/blogs" element={<Blog />} />
+      <Route path="/productspage" element={<Product />} />
+
     </Routes>
     <Footer/>
       </>) :(
@@ -43,17 +51,19 @@ function App() {
           <h2>Loading...</h2>
         </div>
       )
-    }
-    <Navbaar/>
-    <Newnav />
-    <Routes>
-      <Route path="/" element={<Maincomp />} />
-      <Route path="/login" element={<Sign_in />} />
-      <Route path="/register" element={<SignUp />} />
-      <Route path="/getproduct/:id" element={<Cart />} />
-      <Route path="/buynow" element={<Buynow />} />
-    </Routes>
-    <Footer/>
+     }
+    {/* // <Navbaar/>
+    // <Newnav />
+    // <Routes>
+    //   <Route path="/" element={<Maincomp />} />
+    //   <Route path="/login" element={<Sign_in />} />
+    //   <Route path="/register" element={<SignUp />} />
+    //   <Route path="/getproduct/:id" element={<Cart />} />
+    //   <Route path="/buynow" element={<Buynow />} />
+    //   <Route path="/aboutus" element={<About />} />
+    //   <Route path="/blogs" element={<Blog />} />
+    // </Routes>
+    // <Footer/> */}
     </>
   );
 }

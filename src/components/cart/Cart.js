@@ -84,11 +84,11 @@ const addtocart=async(id)=>{
         </div>
         <div className='right_cart'>
         <h3>{inddata.title.shortTitle}</h3>
-          <h5>{inddata.title.descrip}</h5>
+          <h5>{inddata.description}</h5>
            <Divider/>
-           <p className='mrp'>M.R.P.:<span style={{textDecoration:"line-through"}}>{inddata.price}</span></p>
-           <h5>Introductory Offer: <span style={{color:'red'}}>&#8377; 49.00</span></h5>
-           <h5>Free Delivery by 15th Nov</h5>
+           <p className='mrp'>M.R.P.:&#8377;<span style={{textDecoration:"line-through"}}>{inddata.price.mrp}</span></p>
+           <h5>Introductory Offer: <span style={{color:'red'}}>&#8377;{inddata.price.cost} </span></h5>
+           <h5>Free Delivery by 30th Nov</h5>
         </div>
       </div>
 }
